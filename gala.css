@@ -1,0 +1,10 @@
+html, body
+{
+ /* Centro Texto */ 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+ /* Doy estilo de gala */ 
+  backrground-color: #bfbfbf;
+  color: #bfbf7f;
+}
