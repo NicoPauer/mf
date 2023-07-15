@@ -16,6 +16,12 @@ form *
   margin: 0.25em;
 }
 
+input[id="ternado"]
+{
+ /* Ajusto tamaño de esta parte del formulario para que se vea mejor en celulares */
+  width: 23%;
+}
+
 input[type="number"], button
 {
  /* Agrando los dos ultimos elementos del formulario para que se ve mejor en celulares */
