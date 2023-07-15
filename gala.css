@@ -14,6 +14,8 @@ form *
 {
   /* voy separando los elementos del formulario para que se vea mejor en celulares */
   margin: 0.25em;
+ /* Alineo texto interior al centro para que se vea mejor y se mas visible lo que hay que ingresar (mas accesibilidad WCAG) */
+  text-align: center;
 }
 
 input[id="ternado"]
@@ -24,11 +26,14 @@ input[id="ternado"]
 
 input[type="number"]
 {
- /* Agrando los dos ultimos elementos del formulario para que se ve mejor en celulares */
-  width: 50%;
+ /* Agrando los dos ultimos elementos del formulario para que se ve mejor en celulares y cambio margen 
+    al formulario de año para que se posicione mejor en pantalla. */
+  width: 28%;
+  margin: 0.7em;
 }
 
 button
 {
-  width: 25%;
+ /* Hago de otro tamaño el boton para aprovechar mejor la pantalla */
+  width: 33%;
 }
