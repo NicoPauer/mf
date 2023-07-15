@@ -9,3 +9,9 @@ html, body
   background-color: #131313;
   color: #cfcf1c;
 }
+
+form *
+{
+  /* voy separando los elementos del formulario para que se vea mejor en celulares */
+  margin: 0.5em;
+}
