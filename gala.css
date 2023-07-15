@@ -22,8 +22,13 @@ input[id="ternado"]
   width: 23%;
 }
 
-input[type="number"], button
+input[type="number"]
 {
  /* Agrando los dos ultimos elementos del formulario para que se ve mejor en celulares */
   width: 50%;
+}
+
+button
+{
+  width: 25%;
 }
