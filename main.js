@@ -2,4 +2,4 @@
 
 let boton = document.getElementById("entrega");
 /* cuando se oprime el botón si los datos son válidos genera la imagen para descargar */
-window.addEventListener("click", alerta("entregado"));
+boton.addEventListener("click", alerta("entregado"));
