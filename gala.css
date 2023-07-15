@@ -15,3 +15,9 @@ form *
   /* voy separando los elementos del formulario para que se vea mejor en celulares */
   margin: 0.25em;
 }
+
+input[type="number"], button
+{
+ /* Agrando los dos ultimos elementos del formulario para que se ve mejor en celulares */
+  width: 25%;
+}
