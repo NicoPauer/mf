@@ -14,7 +14,8 @@ a
 {
   /* camufló el enlace para estilo más moderno*/
       color: #cfddee;
-      text-decoration: dotted;
+      text-decoration: dot;
+      text-decoration-color: ff3f3f;
 }
 
 a:visited
