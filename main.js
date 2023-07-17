@@ -9,7 +9,7 @@ let certificado = document.getElementById("martin-fierro");
 // Defino funciones a usar
 function generar(notificacion)
 {
-   certificado.innerHTML = (notificacion);
+   certificado.innerHTML = certificado.innerHTML + (notificacion);
 }
 /* cuando se oprime el botón si los datos son válidos genera la imagen para descargar */
-boton.addEventListener("click", () => generar("A " + ternado.value + " le dan Martín Fierro como " + terna.value + " " + edicion.value + "."));
+boton.addEventListener("click", () => generar("A " + ternado.value + " le dan Martín Fierro como " + terna.value + " " + edicion.value + ".<br />"));
