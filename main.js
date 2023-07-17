@@ -12,4 +12,4 @@ function generar(notificacion)
    certificado.innerHTML = certificado.innerHTML + (notificacion);
 }
 /* cuando se oprime el botón si los datos son válidos genera la imagen para descargar */
-boton.addEventListener("click", () => generar("A " + ternado.value + " le dan Martín Fierro como " + terna.value + " " + edicion.value + ".<br />"));
+boton.addEventListener("click", generar("A " + ternado.value + " le dan Martín Fierro como " + terna.value + " " + edicion.value + ".<br />"));
