@@ -10,6 +10,18 @@ html, body
   color: #cfcf1c;
 }
 
+a
+{
+  /* camufló el enlace para estilo más moderno*/
+      color: #cfddee;
+      text-decoration: none;
+}
+
+a:visites
+{
+    color: #cfcf1c;
+}
+
 form *
 {
   /* voy separando los elementos del formulario para que se vea mejor en celulares */
