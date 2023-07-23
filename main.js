@@ -20,7 +20,9 @@ function generar(notificacion)
 {
   // Funcion que genera las alertas visuales con el certificado 
    alert(notificacion);
-   marco.strokeText(notificacion, 1, 0);
+  // En texto amarillo completo con la informacion recibida
+   marco.strokeStyle = "#ffff00";
+   marco.strokeText(notificacion, 5, 10);
 }
 
 function descargar()
