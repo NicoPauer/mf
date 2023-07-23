@@ -29,7 +29,7 @@ function descargar()
    // Creo un enlace con la etiquta <a> de atributo download para descargar y la URL del canvas
    let enlace = document.createElement("a");
    enlace.href = certificado.toDataURL();
-   enlace.download = ("mf_" + terado.value + "_" + terna.value + "_" + edicion.value + ".png");
+   enlace.download = ("mf_" + ternado.value + "_" + terna.value + "_" + edicion.value + ".png");
   // Hago la descarga automaticamente
    enlace.click();
 }
