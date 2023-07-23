@@ -22,8 +22,8 @@ function generar(notificacion)
    alert(notificacion);
   // En texto amarillo con fondo negro completo con la informacion recibida
    marco.strokeStyle = "#ffff00";
-   marco.fillStyle = "black";
-   marco.strokeText(notificacion, 10, 75);
+   marco.fillStyle = "blue";
+   marco.strokeText(notificacion, 5, 75);
 }
 
 function descargar()
