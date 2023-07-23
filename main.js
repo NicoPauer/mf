@@ -20,9 +20,10 @@ function generar(notificacion)
 {
   // Funcion que genera las alertas visuales con el certificado 
    alert(notificacion);
-  // En texto amarillo completo con la informacion recibida
+  // En texto amarillo con fondo negro completo con la informacion recibida
    marco.strokeStyle = "#ffff00";
-   marco.strokeText(notificacion, 10, 20);
+   marco.fillStyle = "#000000";
+   marco.strokeText(notificacion, 150, 75);
 }
 
 function descargar()
@@ -31,7 +32,7 @@ function descargar()
    // Creo un enlace con la etiquta <a> de atributo download para descargar y la URL del canvas
    let enlace = document.createElement("a");
    enlace.href = certificado.toDataURL();
-   enlace.download = ("mf_" + ternado.value + "_" + terna.value + "_" + edicion.value + ".png");
+   enlace.download = ("martin-fierro_" + ternado.value + "_" + terna.value + "_" + edicion.value + ".png");
   // Hago la descarga automaticamente
    enlace.click();
 }
