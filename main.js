@@ -21,8 +21,14 @@ function generar(notificacion)
   // Funcion que genera las alertas visuales con el certificado 
    alert(notificacion);
   // En texto amarillo con fondo negro completo con la informacion recibida
+
+ // Color de texto(stroke) 
    marco.strokeStyle = "#ffff00";
-   marco.fillStyle = "blue";
+// Color de fondo(fill)  
+   marco.fillStyle = "#ededed";
+// Hago rectangulo de fondo, x = 0, y = 0, altura = 150px, ancho = 300px
+  marco.fillRect(0, 0, 300, 150);
+// Escribo texto   
    marco.strokeText(notificacion, 5, 75);
 }
 
