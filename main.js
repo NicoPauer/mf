@@ -38,7 +38,8 @@ function descargar()
    // Creo un enlace con la etiquta <a> de atributo download para descargar y la URL del canvas
    let enlace = document.createElement("a");
    enlace.href = certificado.toDataURL();
-   enlace.download = ("martin-fierro_" + ternado.value + "_" + terna.value + "_" + edicion.value + ".png");
+ // En el nombre de descarga remplazo espacios por guiones medios 
+   enlace.download = (("martin-fierro_" + ternado.value + "_" + terna.value + "_" + edicion.value + ".png")).replace(" ", "-");
   // Hago la descarga automaticamente
    enlace.click();
 }
