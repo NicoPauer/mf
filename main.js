@@ -25,7 +25,7 @@ function generar(notificacion)
  // Color de texto(stroke) 
    marco.strokeStyle = "#ffff00";
 // Color de fondo(fill)  
-   marco.fillStyle = "#ededed";
+   marco.fillStyle = "#000000";
 // Hago rectangulo de fondo, x = 0, y = 0, altura = 150px, ancho = 300px
   marco.fillRect(0, 0, 300, 150);
 // Escribo texto   
